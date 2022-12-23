@@ -1,0 +1,44 @@
+Field Position,Field Short Name,Field Long Name,Field Description,Sample Values
+1,AAGE,age,age,continuous (0-90)
+2,ACLSWKR,class_of_worker,class of worker,"Not in universe, Federal government, Local government, Never worked, Private"
+3,ADTIND,detailed_industry_recode,detailed industry recode,"0, 40, 44, 2, 43, 47, 48, 1, 11, 19"
+4,ADTOCC,detailed_occupation_recode,detailed occupation recode,"0, 12, 31, 44, 19, 32, 10"
+5,AHGA,education,education,"Children, 7th and 8th grade, 9th grade, 10th grade, High school graduate, 11th grade, 12th grade no diploma"
+6,AHRSPAY,wage_per_hour,wage per hour,continuous -- looks off - a lot of zeros and too large to be true numbers
+7,AHSCOL,enroll_in_edu_inst_last_wk,enroll in edu inst last wk,"Not in universe, High school, College or university."
+8,AMARITL,marital_stat,marital stat,"Never married, Married-civilian spouse present, Married-spouse absent, Separated, Divorced"
+9,AMJIND,major_industry_code,major industry code,"Not in universe or children, Entertainment, Social services, Agriculture, Education, Public administration"
+10,AMJOCC,major_occupation_code,major occupation code,"Not in universe, Professional specialty, Other service, Farming forestry and fishing, Sales"
+11,ARACE,race,race,"White, Black, Other, Amer Indian Aleut or Eskimo, Asian or Pacific Islander."
+12,AREORGN,hispanic_origin,hispanic origin,"Mexican (Mexicano), Mexican-American, Puerto Rican, Central or South American"
+13,ASEX,sex,sex,"Female, Male."
+14,AUNMEM,member_of_a_labor_union,member of a labor union,"Not in universe, No, Yes"
+15,AUNTYPE,reason_for_unemployment,reason for unemployment,"Not in universe, Re-entrant, Job loser - on layoff, New entrant, Job leaver, Other job loser"
+16,AWKSTAT,full_or_part_time_employment_stat,full or part time employment stat,"Children or Armed Forces, Full-time schedules, Unemployed part- time, Not in labor force, Unemployed full-time"
+17,CAPGAIN,capital_gains,capital gains,continuous
+18,CAPLOSS,capital_losses,capital losses,continuous
+19,DIVVAL,dividends_from_stocks,dividends from stocks,continuous
+20,FILESTAT,tax_filer_stat,tax filer stat,"Nonfiler, Joint one under 65 & one 65+, Joint both under 65, Single, Head of household, Joint both 65+"
+21,GRINREG,region_of_previous_residence,region of previous residence,"Not in universe, South, Northeast, West, Midwest, Abroad."
+22,GRINST,state_of_previous_residence,state of previous residence,"Not in universe, Utah, Michigan"
+23,HHDFMX,detailed_household_and_family_stat,detailed household and family stat,"Child <18 never marr not in subfamily, Other Rel <18 never marr child of subfamily RP"
+24,HHDREL,detailed_household_summary_in_household,detailed household summary in household,"Child under 18 never married, Other relative of householder, Nonrelative of householder"
+25,MARSUPWT,instance_weight,instance weight,
+25,MARSUPWT,migration_code_change_in_msa,instance weight,continuous
+26,MIGMTR1,migration_code_change_in_reg,migration code-change in msa,"Not in universe, Nonmover, MSA to MSA, NonMSA to nonMSA, MSA to nonMSA, NonMSA to MSA"
+27,MIGMTR3,migration_code_move_within_reg,migration code-change in reg,"Not in universe, Nonmover, Same county, Different county same state, Different state same division"
+28,MIGMTR4,live_in_this_house_1_year_ago,migration code-move within reg,"Not in universe, Nonmover, Same county, Different county same state, Different state in West, Abroad"
+29,MIGSAME,migration_prev_res_in_sunbelt,live in this house 1 year ago,"Not in universe under 1 year old, Yes, No"
+30,MIGSUN,num_persons_worked_for_employer,migration prev res in sunbelt,"Not in universe, Yes, No"
+31,NOEMP,family_members_under_18,num persons worked for employer,continuous
+32,PARENT,country_of_birth_father,family members under 18,"Both parents present, Neither parent present, Mother only present, Father only present, Not in universe"
+33,PEFNTVTY,country_of_birth_mother,country of birth father,"Mexico, United-States, Puerto-Rico, Dominican-Republic, Jamaica, Cuba, Portugal, Nicaragua, Peru"
+34,PEMNTVTY,country_of_birth_self,country of birth mother,"India, Mexico, United-States, Puerto-Rico, Dominican-Republic, England, Honduras, Peru, Guatemala"
+35,PENATVTY,citizenship,country of birth self,"United-States, Mexico, Puerto-Rico"
+36,PRCITSHP,own_business_or_self_employed,citizenship,"Native- Born in the United States, Foreign born- Not a citizen of U S , Native- Born in Puerto Rico or U S Outlying"
+37,SEOTR,fill_inc_questionnaire_for_veterans_admin,own business or self employed,"2', '1', '0'"
+38,VETQVA,veterans_benefits,fill inc questionnaire for veteran's admin,"Not in universe, Yes, No"
+39,VETYN,weeks_worked_in_year,veterans benefits,"2', '1', '0'"
+40,WKSWORK,year,weeks worked in year,continuous (0-52)
+41,YEAR,target,year,"94, 95"
+42,TARGET,Target,Target,"-50000, 50000+"
